@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Agendamento Online
-        run: curl -sS https://agendamento-online-barbearia-lucas-borges.onrender.com/ > /dev/null
+        run: curl -sS https://agendamentos-barbearia-lucas-borges.onrender.com > /dev/null
 
       # ----- ADIÇÃO NOVA -----
       - name: Ping Controle Diario
