@@ -18,5 +18,5 @@ jobs:
 
       # ----- ADIÇÃO NOVA -----
       - name: Ping Agendamento Interno
-        run: curl -sS https://agendamento-interno-barbearia-lb.onrender.com/ > /dev/null
+        run: curl -sS https://agendamento-interno-barbearia-lucas.onrender.com > /dev/null
         #vai funcionar
