@@ -20,3 +20,6 @@ jobs:
       - name: Ping Agendamento Interno
         run: curl -sS https://agendamento-interno-barbearia-lucas.onrender.com > /dev/null
         #vai funcionar
+
+      - name: Ping Dashboard Interno
+        run: curl -sS https://dashboard-barbearia-lb.onrender.com > /dev/null
