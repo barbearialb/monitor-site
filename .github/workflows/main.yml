@@ -23,3 +23,6 @@ jobs:
 
       - name: Ping Dashboard Interno
         run: curl -sS https://dashboard-barbearia-lb.onrender.com > /dev/null
+     
+      - name: Ping Regtistro Diário
+        run: curl -sS https://registro-barbearia-lucas-borges.onrender.com > /dev/null
