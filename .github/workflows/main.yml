@@ -26,3 +26,8 @@ jobs:
      
       - name: Ping Regtistro Diário
         run: curl -sS https://registro-barbearia-lucas-borges.onrender.com > /dev/null
+      
+      - name: Ping Regtistro
+        run: curl -sS https://registroesmalteriaborges.streamlit.app > /dev/null
+      
+      
