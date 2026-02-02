@@ -1,12 +1,12 @@
 name: Keep-Alive Bot
 
 on:
-  # Permite rodar manualmente para testes
-  workflow_dispatch:
+  workflow_dispatch: # Mantém o botão manual
   
   schedule:
-    # Roda a cada 10 minutos
-    - cron: '*/10 * * * *'
+    # O truque: Rodar nos minutos 4, 14, 24, 34, 44 e 54
+    # Isso evita o "congestionamento" dos minutos redondos
+    - cron: '4,14,24,34,44,54 * * * *'
 
 jobs:
   ping-my-sites:
