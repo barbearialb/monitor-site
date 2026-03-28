@@ -29,3 +29,4 @@ jobs:
       
       - name: Ping Registro Esmalteria
         run: curl -sS https://registroesmalteriaborges.streamlit.app > /dev/null
+        #teste
